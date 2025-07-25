@@ -2,11 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>DevOps with GitHub Actions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🚀 GitHub Actions Static Site</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #f0f4c3);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+
+    h1 {
+      color: #0366d6;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #333333;
+    }
+
+    .badge {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #4caf50;
+      color: white;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body>
-  <h1>🚀 GitHub Pages Deployed!</h1>
-  <p>This static site is deployed automatically using GitHub Actions.</p>
+  <div class="card">
+    <h1>🚀 GitHub Pages Deployed!</h1>
+    <p>This site was automatically deployed using <strong>GitHub Actions</strong>.</p>
+    <span class="badge">CI/CD Success</span>
+  </div>
 </body>
 </html>
-
